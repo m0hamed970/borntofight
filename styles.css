@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #1d1d1d;
+    color: #e0e0e0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 15px 0 5px;
+    padding: 20px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.226);
+    color: #929191;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+img {
+    width: 250px;
+    height: auto;
+    margin-top: -15px;
+    display: inline-block;
+    transition: transform 1.5s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    outline: none;
+}
+
+
+img:hover {
+    transform: scale(1.1) rotate(1deg);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    filter: brightness(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: #ff4d4d;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #d32f2f;
+    color: #e5e5c4;
+}
+
+header {
+    background-color: #121212;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5px;
+}
+
+footer {
+    background-color: #1d1d1d;
+    color: #ccc;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
+
+#quiz-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #444;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #444;
+    background-color: #d60202;
+}
+
+.boxe-anglaise .section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.boxe-anglaise .section .bloc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 30px;
+}
+
+.boxe-anglaise .section .bloc img {
+    max-width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.boxe-anglaise .section .bloc audio {
+    max-width: 21%;
+}
+
+.boxe-anglaise .section .bloc .texte {
+    flex: 1;
+    color: #d0d0d0;
+    margin-bottom: 20px;
+}
+
+.boxe-anglaise .section .bloc h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.bloc .texte ul {
+    text-align: left;
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.bloc .texte ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.bloc .texte h2 {
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.p1 , ul, li {
+    text-align: left;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 12px;
+    color: #f0f0f0;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.video-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #bf3030;
+    text-align: center;
+}
+
+.video-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ccc;
+}
+
+.video-container iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.video-container iframe:hover {
+    transform: scale(1.03);
+}
+
+.citation-boxe {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 600px;
+    font-size: 1.1rem;
+    color: #8f8f8f;
+    border: 2px solid black;
+    border-width: 4px;       
+    border-style: dashed;    
+    border-color: rgb(73, 9, 9);
+    border-radius: 10px; 
+    padding-top: 10px;
+}
+.citation-boxe blockquote {
+    font-style: italic;
+    margin: 10px 0;
+}
+.citation-boxe p {
+    font-weight: bold;
+    margin: 5px 0 20px;
+}
+
+/* Section d'introduction */
+.intro {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Style pour les cartes de choix */
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.option-card {
+    background-color: #161515;
+    padding: 20px;
+    width: 10px;
+    width: 35%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.option-card h3 {
+    color: #db3434;
+}
+
+.option-card .btn {
+    margin-top: 15px;
+}
+
+.citation, .quote-card, .testimonial-card {
+    display: flex;
+    align-items: center; 
+    background-color: #333;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 80%; 
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.citation .texte, .quote-card .texte, .testimonial-card .texte {
+    flex: 1; 
+    margin-right: 20px;
+    color: #ccc;
+}
+
+.citation .quote-img, .quote-card .quote-img, .testimonial-card .testimonial-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding-top: 15px;
+}
+
+.citation blockquote, .quote-card blockquote {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.citation p, .quote-card cite {
+    font-weight: bold;
+}
+
+.citation p {
+    margin: 5px 0 20px;
+}
+
+.quote-card cite {
+    color: #d60202;
+    font-weight: bold;
+}
+
+.musique{
+    font-size: medium;
+}
